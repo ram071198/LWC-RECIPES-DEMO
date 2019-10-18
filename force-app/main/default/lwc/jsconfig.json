@@ -1,0 +1,128 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/apexImperativeMethod": [
+                "apexImperativeMethod/apexImperativeMethod.js"
+            ],
+            "c/apexImperativeMethodWithComplexParams": [
+                "apexImperativeMethodWithComplexParams/apexImperativeMethodWithComplexParams.js"
+            ],
+            "c/apexImperativeMethodWithParams": [
+                "apexImperativeMethodWithParams/apexImperativeMethodWithParams.js"
+            ],
+            "c/apexStaticSchema": [
+                "apexStaticSchema/apexStaticSchema.js"
+            ],
+            "c/apexWireMethodToFunction": [
+                "apexWireMethodToFunction/apexWireMethodToFunction.js"
+            ],
+            "c/apexWireMethodToProperty": [
+                "apexWireMethodToProperty/apexWireMethodToProperty.js"
+            ],
+            "c/apexWireMethodWithComplexParams": [
+                "apexWireMethodWithComplexParams/apexWireMethodWithComplexParams.js"
+            ],
+            "c/apexWireMethodWithParams": [
+                "apexWireMethodWithParams/apexWireMethodWithParams.js"
+            ],
+            "c/compositionBasics": [
+                "compositionBasics/compositionBasics.js"
+            ],
+            "c/compositionContactSearch": [
+                "compositionContactSearch/compositionContactSearch.js"
+            ],
+            "c/compositionIteration": [
+                "compositionIteration/compositionIteration.js"
+            ],
+            "c/compositionWithAppBuilder": [
+                "compositionWithAppBuilder/compositionWithAppBuilder.js"
+            ],
+            "c/contactTile": [
+                "contactTile/contactTile.js"
+            ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
+            ],
+            "c/hello": [
+                "hello/hello.js"
+            ],
+            "c/helloBinding": [
+                "helloBinding/helloBinding.js"
+            ],
+            "c/helloConditionalRendering": [
+                "helloConditionalRendering/helloConditionalRendering.js"
+            ],
+            "c/helloExpressions": [
+                "helloExpressions/helloExpressions.js"
+            ],
+            "c/helloForEach": [
+                "helloForEach/helloForEach.js"
+            ],
+            "c/helloIterator": [
+                "helloIterator/helloIterator.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ],
+            "c/viewSource": [
+                "viewSource/viewSource.js"
+            ],
+            "c/ldsCreateRecord": [
+                "ldsCreateRecord/ldsCreateRecord.js"
+            ],
+            "c/ldsDeleteRecord": [
+                "ldsDeleteRecord/ldsDeleteRecord.js"
+            ],
+            "c/chartBar": [
+                "chartBar/chartBar.js"
+            ],
+            "c/apiProperty": [
+                "apiProperty/apiProperty.js"
+            ],
+            "c/apiFunction": [
+                "apiFunction/apiFunction.js"
+            ],
+            "c/clock": [
+                "clock/clock.js"
+            ],
+            "c/apiSetterGetter": [
+                "apiSetterGetter/apiSetterGetter.js"
+            ],
+            "c/todoList": [
+                "todoList/todoList.js"
+            ],
+            "c/pubsubSearchBar": [
+                "pubsubSearchBar/pubsubSearchBar.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/pubsubContactList": [
+                "pubsubContactList/pubsubContactList.js"
+            ],
+            "c/contactListItemBubbling": [
+                "contactListItemBubbling/contactListItemBubbling.js"
+            ],
+            "c/pubsubContactDetails": [
+                "pubsubContactDetails/pubsubContactDetails.js"
+            ],
+            "c/contactList": [
+                "contactList/contactList.js"
+            ],
+            "c/auraPubsub": [
+                "auraPubsub/auraPubsub.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
